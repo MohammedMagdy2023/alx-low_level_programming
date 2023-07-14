@@ -1,5 +1,6 @@
 #include <stdio.h>
-/*This is an example on printf
+/**
+*This is an example on printf
 *main - function
 *
 *
