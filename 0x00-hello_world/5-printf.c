@@ -3,7 +3,6 @@
 *This is an example on printf
 *main - function prints the value
 *always return 0 
-*
 */
 int main(void)
 {
