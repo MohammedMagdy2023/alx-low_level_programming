@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
-*This is an example on printf
-*main - function prints the value
-*always return 0 
+*main - Main function
+*
+*
+*Return: return 0 everytime
 */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+	return (0);
 }
