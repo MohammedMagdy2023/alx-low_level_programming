@@ -1,0 +1,7 @@
+#!/bin/bash
+i=0
+while [ TRUE ];do
+      echo "git pull No:${i}"
+      git pull
+      sleep 600
+done

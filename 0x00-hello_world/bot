@@ -1,0 +1,22 @@
+#!/bin/bash
+if [ -z "$1" ];then
+    read -p "Enter The file name you want to create: " FILE_NAME
+    touch $FILE_NAME
+
+    echo "file => ${FILE_NAME} Created"
+    echo "#!/bin/bash" > $FILE_NAME
+    echo "shebang added successfully "
+    chmod u+x $FILE_NAME
+    echo "Execute permission granted"
+    echo ">_ Script Compeleted
+     	       Have A Nice Day"
+else
+    touch $1
+    echo "file => ${1} Created"
+    echo "#!/bin/bash" > $1
+    echo "shebang added successfully "
+    chmod u+x $1
+    echo "Execute permission granted"
+    echo ">_ Script Compeleted
+     	       Have A Nice Day"
+fi
