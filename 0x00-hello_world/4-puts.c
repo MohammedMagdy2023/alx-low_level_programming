@@ -2,7 +2,7 @@
 #include <string.h>
 
 /*Puts example
- * puts function insert a new line in the end and its like printf
+  puts function insert a new line in the end and its like printf
 */
 
 
