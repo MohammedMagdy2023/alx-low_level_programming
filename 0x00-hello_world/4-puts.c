@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include <string.h>
 
-/*Puts example
-  puts function insert a new line in the end and its like printf
+/**
+*main - Main function of my project
+*
+*
+*Return: return 0 everytime
 */
-
-
 int main(void)
 {
-char hello[] = "\"Programming is like building a multilingual puzzle";
 
-puts(hello);
-return (0);
+	char displayed[52];
+
+	strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+	puts(displayed);
+	return (0);
 }
