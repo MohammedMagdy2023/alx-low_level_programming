@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/* main function telles if the n variable positive or nigative or zero*/
+/**
+main function telles if the n variable positive or nigative or zero
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
