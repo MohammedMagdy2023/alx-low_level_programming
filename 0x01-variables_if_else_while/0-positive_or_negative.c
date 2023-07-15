@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 /**
-* main function telles if the n variable positive or nigative or zero
+*main - entry point of programs
+*
+*Return: return 0
 */
-/* betty style doc for function main goes there */
 int main(void)
 {
 int n;
@@ -19,7 +19,7 @@ printf("%d is positive\n", n);
 }
 else if (n < 0)
 {
-printf("%d is positive\n", n);
+printf("%d is negative\n", n);
 }
 else
 {
