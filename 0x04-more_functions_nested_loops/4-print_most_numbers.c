@@ -11,9 +11,13 @@ void print_numbers(void)
 int i = 48;
 for (i = 48; i < 58; i++)
 {
-if (i != 50 || i != 50){
-_putchar(i);
-} 
+if (i == 50 || i == 52){
+continue;
+}
+else
+{
+putchar(i);
+}
 }
 _putchar(10);
 }
