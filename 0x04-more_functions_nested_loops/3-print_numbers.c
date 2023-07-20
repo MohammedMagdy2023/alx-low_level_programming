@@ -13,4 +13,5 @@ while (i <= 9)
 _putchar(i);
 i++;
 }
+return (0);
 }
