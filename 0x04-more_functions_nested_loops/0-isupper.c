@@ -15,4 +15,5 @@ else
 {
 _putchar("%c: 0",c);
 }
+return(0);
 }
