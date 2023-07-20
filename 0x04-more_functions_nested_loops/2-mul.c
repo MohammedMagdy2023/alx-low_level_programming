@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* isdigit checks if the digit in range 0 to 9
-* @c: character to check 
-*Return: return 0 or 1
+* mul - function to multiply two number
+* @a : the first number
+* @b : the second number
+*Return: return a * b
 */
 
 int mul(int a , int b)
