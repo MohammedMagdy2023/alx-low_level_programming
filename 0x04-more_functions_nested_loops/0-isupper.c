@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *_isupper - controls if a character is in uppercase or lowercase
 *@c: character to be verified
