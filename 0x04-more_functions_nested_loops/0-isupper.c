@@ -1,19 +1,14 @@
 #include "main.h"
 /**
- * main 
- * checks the code and return 1 if uppercase
- * and 0 if lowercase
- * 
+*_islower - controls if a character is in lowercase
+*@c: character to be verified
+*Return: return 0 or 1
 */
-
-int main(char c){
-
-if (c ){
-_putchar("%c: 1",c);
-}
-else
+int _islower(int c)
 {
-_putchar("%c: 0",c);
-}
-return(0);
+if (c >= 'A' && c <= 'Z')
+return (1);
+
+return (0);
+
 }
