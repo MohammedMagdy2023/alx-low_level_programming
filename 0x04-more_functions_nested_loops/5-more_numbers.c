@@ -14,7 +14,6 @@ for (i = 0; i < 15; i++ )
 {
 _putchar(i);
 }
-_putchar("\n");
 }
 _putchar(10);
 }
