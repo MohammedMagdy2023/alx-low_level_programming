@@ -4,7 +4,7 @@
 * main - prints program name
 *@argc: number of arguments
 *@argv: array of arguments
-*Return: 0
+*Return: the number of arguments
 */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
