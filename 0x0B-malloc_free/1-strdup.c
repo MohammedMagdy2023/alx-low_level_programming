@@ -12,26 +12,26 @@
 
 char *_strdup(char *str)
 {
-	char *ptr;
-	int index, len;
+char *ptr;
+int index, len;
 
-	if (str == NULL)
-		return (NULL);
+if (str == NULL)
+return (NULL);
 
-	for (index = 0; str[index]; index++)
-		len++;
-	ptr = malloc(sizeof(char) * (len + 1));
+for (index = 0; str[index]; index++)
+len++;
+ptr = malloc(sizeof(char) * (len + 1));
 
-	if (ptr == NULL)
-		return (NULL);
+if (ptr == NULL)
+return (NULL);
 
-	for (index = 0; str[index]; index++)
-	{
-		ptr[index] = str[index];
-	}
+for (index = 0; str[index]; index++)
+{
+ptr[index] = str[index];
+}
 
-	ptr[len] = '\0';
+ptr[len] = '\0';
 
-	return (ptr);
+return (ptr);
 
 }
