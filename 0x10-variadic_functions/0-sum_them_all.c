@@ -10,15 +10,15 @@ int sum_them_all(const unsigned int n, ...)
 /*declaring the function requiments */
 int result;
 unsigned int i;
-va_list arg_ptr;
+va_list argptr;
 
-va_start(arg_ptr, n);
+va_start(argptr, n);
 
 if (n == 0)
 return (0);
 for (i = 0 ; i < n ; i++)
 {
-result += va_arg(arg_ptr, unsigned int);
+result += va_arg(argptr, unsigned int);
 }
-va_end(arg_ptr);
+va_end(argptr);
 }
