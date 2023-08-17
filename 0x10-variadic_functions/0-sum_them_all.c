@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 /**
-*sum_them_all():a funtion that calculate given arguments
+*sum_them_all:a funtion that calculate given arguments
+*@n:number of the args should be added
 *return 0 if arguments number is 0
 */
 
@@ -10,7 +11,8 @@ va_list arg_ptr;
 va_start(arg_ptr, n);
 va_arg(arg_ptr, int);
 
-int result, i;
+int result;
+unsigned int i;
 if (n == 0)
 {
 return (0);
