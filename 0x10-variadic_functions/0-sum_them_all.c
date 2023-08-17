@@ -21,4 +21,5 @@ for (i = 0 ; i < n ; i++)
 result += va_arg(argptr, unsigned int);
 }
 va_end(argptr);
+return(result)
 }
