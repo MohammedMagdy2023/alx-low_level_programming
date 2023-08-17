@@ -1,8 +1,8 @@
 #include "variadic_functions.h"
 /**
-*sum_them_all:a funtion that calculate given arguments
+*sum_them_all - a funtion that calculate the sum of  all given arguments
 *@n:number of the args should be added
-*return 0 if arguments number is 0
+*Return: 0 if arguments number is 0
 */
 
 int sum_them_all(const unsigned int n, ...)
@@ -21,5 +21,5 @@ for (i = 0 ; i < n ; i++)
 result += va_arg(argptr, unsigned int);
 }
 va_end(argptr);
-return(result)
+return (result);
 }
