@@ -10,6 +10,7 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
+	char *string_pointer;
 	va_list arg_ptr;
 
 	va_start(arg_ptr, n);
@@ -19,7 +20,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
   /*return  string if separator isn't empty*/
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", va_arg(arg_ptr, int));
+		string_pointer = va_arg(arg_ptr,char*);
+		if (string_pointer == NULL)
+			string_pointer = "(nil)";
+		printf("%s", string_pointer);
 		if (i < n - 1)
 			printf("%s", separator);
 	}
