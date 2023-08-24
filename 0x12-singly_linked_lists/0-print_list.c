@@ -14,13 +14,13 @@ if (!s)
 return (0);
 while (*s++)
 i++;
-return (i);  
+return (i);
 
 }
 
 /**
 *print_list - print all elements
-*@h: pointer to string 
+*@h: pointer to string
 *
 *Return:sizeof list
 */
