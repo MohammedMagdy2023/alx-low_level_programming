@@ -18,6 +18,6 @@ printf("%d\n", ptr->n);
 ptr += 1;
 ptr = ptr->next;
 }
-return (i);
+return (ptr);
 }
 
