@@ -1,6 +1,9 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /*Struct Created By ALX*/
 
 /**
@@ -11,6 +14,7 @@
  * Description: singly linked list node structure
  * 
  */
+
 typedef struct listint_s
 {
     int n;
