@@ -1,4 +1,4 @@
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
  * main - a function that prints alphabet followed by a new line
