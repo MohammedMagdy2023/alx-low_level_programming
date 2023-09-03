@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/***
- *main - prints alphabet in uppercase followed by a new line
+/**
+ *main - function prints alphabet in lowersase then uppercase followed by a new line
  *
  *Return:0
  */
@@ -21,6 +21,6 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
 
