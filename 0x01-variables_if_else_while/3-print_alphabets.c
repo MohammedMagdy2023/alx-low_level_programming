@@ -16,7 +16,7 @@ int main(void)
 		putchar(i);
 	}
 	/*Print alphabet in uppercase*/
-	for (i = 65; i < 95; i++)
+	for (i = 65; i < 90; i++)
 	{
 		putchar(i);
 	}
