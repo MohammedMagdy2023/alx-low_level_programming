@@ -1,23 +1,27 @@
 #include <stdio.h>
-#include <ctype.h>
+
 /**
-*main - Prints all single digits with , and space followed by new line
-*
-*Return: returns 0
-*/
+ *main - fuction that prints all single digits
+ *
+ *Return:0
+ */
+
 int main(void)
 {
-int digit;
+	int i;
 
-for (digit = '0'; digit <= '9'; digit++)
-{
-putchar(digit);
-if (digit == '9')
-continue;
+	for (i = 0 ; i < 10; i++)
+	{
+		putchar(i + '0');
+		if (i == 9)
+			continue;
+		else
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
+}
 
-putchar(',');
-putchar(' ');
-}
-putchar('\n');
-return (0);
-}
