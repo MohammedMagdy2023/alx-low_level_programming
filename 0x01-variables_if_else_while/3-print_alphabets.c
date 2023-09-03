@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - function prints alphabet in lowersase then uppercase followed by a new line
+ *main - function prints alphabet in lowersase then uppercase
  *
  *Return:0
  */
@@ -16,7 +16,7 @@ int main(void)
 		putchar(i);
 	}
 	/*Print alphabet in uppercase*/
-	for (i = 65; i < 90; i++)
+	for (i = 65; i <= 90; i++)
 	{
 		putchar(i);
 	}
