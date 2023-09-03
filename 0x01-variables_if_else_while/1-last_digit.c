@@ -6,8 +6,6 @@
 /**
  *main - the entry poit of the programm
  *
- *@n:number to print
- *
  *Return:0
  */
 
