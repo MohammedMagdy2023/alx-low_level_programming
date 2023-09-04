@@ -3,8 +3,8 @@
 /**
  *read_textfile - read a text file and print it to stout
  *
- *@filename: pointer to file 
- *@letters: number os bytes 
+ *@filename: pointer to file
+ *@letters: number os bytes
  *
  *Return: number of bytes
  */
