@@ -32,7 +32,7 @@ return (0);
 }
 
 free(buf);
-close(o);
+close(f);
 
 return (wt);
 
