@@ -13,13 +13,14 @@ if (n <= 0)
 _putchar('\n');
 else
 {
-for (i = 0; i < n; i++ )
+for (i = 0; i < n; i++)
 {
 if (i == 0)
 {
 _putchar(92);
 _putchar('\n');
-}else
+}
+else
 {
 j = 0;
 while (j < i)
