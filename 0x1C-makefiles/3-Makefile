@@ -10,6 +10,8 @@ all: $(OBJ)
 %.o:%.c
 	$(CC) -c $^
 
+.PHONY: clean oclean fclean re
+
 clean:
 	$(RM) $(OBJ) $(NAME)
 	$(RM) *~ \#*\#
